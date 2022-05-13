@@ -1,0 +1,40 @@
+ADAM:
+  betas: !!python/tuple
+  - 0.9
+  - 0.999
+  eps: 1.0e-08
+  lr: 0.001
+  weight_decay: 1.0e-03
+GloVe:
+  variant: "glove-wiki-gigaword-300"
+BiLSTM:
+  hidden_size: 64
+  dropout_rate: 0.3
+  n_classes: 3
+  num_layers: 1
+Multi-BiLSTM:
+  hidden_size: 64
+  dropout_rate: 0.3
+  n_classes: 3
+  num_layers: 2
+Attention-BiLSTM:
+  hidden_size: 64
+  dropout_rate: 0.3
+  n_classes: 3
+  num_layers: 1
+Multi-Attention-BiLSTM:
+  hidden_size: 64
+  dropout_rate: 0.3
+  n_classes: 3
+  num_layers: 2
+train:
+  batch_size: 32
+  shuffle: true
+validation:
+  batch_size: 16
+  shuffle: false
+test:
+  batch_size: 16
+  shuffle: false
+  
+  
