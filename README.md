@@ -1,4 +1,4 @@
-# Sentiment-Analysis-on-News-Headlines
+# Sentiment Analysis on News Headlines
 This repository presents sentiment analysis on news headlines using LSTM variants such as Bi-LTSM, Deep Bi-LSTM and Bi-LSTM with Attention.
 
 ## Dataset
